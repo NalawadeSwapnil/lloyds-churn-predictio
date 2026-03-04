@@ -22,24 +22,26 @@ Experience on Forage.
 - imbalanced-learn (SMOTE)
 
 ## 📁 Project Structure
+```
 churn_project/
-├── load_data.py                    # Load all 5 Excel sheets
-├── step_2_explore.py               # EDA & statistics
-├── step3_merge.py                  # Merge all 5 sheets
-├── step4_charts.py                 # Visualisations
-├── step5_cleaning.py               # Data preprocessing
-├── t2_step1_compare.py             # Compare 4 algorithms
-├── t2_step1b_improve.py            # Threshold & balancing
-├── t2_step2_crossval.py            # 5-fold cross validation
-├── t2_step3_tuning.py              # Hyperparameter tuning
-├── t2_step4_evaluation.py          # Full model evaluation
-├── Customer_Churn_Data_Large.xlsx  # Raw dataset
-├── merged_data.csv                 # Merged dataset
-├── cleaned_data.csv                # Preprocessed dataset
-├── crossval_scores.csv             # Cross validation results
-├── best_params.csv                 # Best hyperparameters
-├── final_metrics.csv               # Final model metrics
-└── predictions.csv                 # Model predictions
+├── load_data.py
+├── step_2_explore.py
+├── step3_merge.py
+├── step4_charts.py
+├── step5_cleaning.py
+├── t2_step1_compare.py
+├── t2_step1b_improve.py
+├── t2_step2_crossval.py
+├── t2_step3_tuning.py
+├── t2_step4_evaluation.py
+├── Customer_Churn_Data_Large.xlsx
+├── merged_data.csv
+├── cleaned_data.csv
+├── crossval_scores.csv
+├── best_params.csv
+├── final_metrics.csv
+└── predictions.csv
+```
 ## 🔍 Task 1 — EDA & Data Preprocessing
 - Merged 5 Excel sheets into one master dataset
 - Explored data with statistics and visualisations
